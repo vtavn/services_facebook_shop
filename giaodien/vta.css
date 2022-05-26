@@ -1,0 +1,258 @@
+.cam{
+    color: white;
+    text-shadow: 0px 0px 0px orange, 0px 0px 0.5em red, 0px 0px 0.4em orange;
+    font-weight: bold;
+}
+    ::-webkit-scrollbar {
+    width: 8px;
+    background-color: #F5F5F5;
+}
+::-webkit-scrollbar-thumb {
+    width: 8px;
+    background: #2b3d4c;
+    border-radius: 15px;
+}
+::selection {
+    color: #000000;
+    background-color: #7db95c;
+}
+body{
+	cursor: url('../css/arrow.cur'), auto;
+}
+a:hover,input:hover,select:hover,button:hover{
+	cursor: url('../css/hover.cur'), auto;
+}
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+/*https://salvatoreanfuso.files.wordpress.com/2016/11/13887299919882.gif?w=980
+http://i.sex-gif.org/wzk371.gif*/
+    background: url('https://s-media-cache-ak0.pinimg.com/originals/06/8a/7a/068a7a976dd5d4c328e4492fea720bae.gif') 50% 50% no-repeat rgb(249,249,249);
+    opacity: .8;
+}
+.red{
+    color: white;
+    text-shadow: 0px 0px 0px red, 0px 0px 0.5em red, 0px 0px 0.4em red;
+    font-weight: bold;
+}
+.xanh{
+    color: white;
+    text-shadow: 0px 0px 0px blue, 0px 0px 0.5em blue, 0px 0px 0.4em blue;
+    font-weight: bold;
+}
+.green{
+    color: white;
+    text-shadow: 0px 0px 0px green, 0px 0px 0.5em green, 0px 0px 0.4em green;
+    font-weight: bold;
+}
+    .twPc-div {
+        background: #fff none repeat scroll 0 0;
+        border: 1px solid #e1e8ed;
+        border-radius: 6px;
+        height: 220px;
+    }
+    .twPc-bg {
+        background-position: 0 50%;
+        background-size: 100% auto;
+        border-bottom: 1px solid #e1e8ed;
+        border-radius: 4px 4px 0 0;
+        height: 95px;
+        width: 100%;
+    }
+    .twPc-block {
+        display: block !important;
+    }
+    .twPc-button {
+        margin: -35px -10px 0;
+        text-align: right;
+        width: 100%;
+    }
+    .twPc-avatarLink {
+        background-color: #fff;
+        border-radius: 6px;
+        display: inline-block !important;
+        float: left;
+        margin: -30px 5px 0 8px;
+        max-width: 100%;
+        padding: 1px;
+        vertical-align: bottom;
+    }
+    .twPc-avatarImg {
+        border: 2px solid #fff;
+        border-radius: 7px;
+        box-sizing: border-box;
+        color: #fff;
+        height: 72px;
+        width: 72px;
+    }
+    .twPc-divUser {
+        margin: 5px 0 0;
+    }
+    .twPc-divName {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21px;
+    }
+    .twPc-divName {
+        color: inherit !important;
+    }
+    .twPc-divStats {
+        margin-left: 11px;
+        padding: 10px 0;
+    }
+    .twPc-Arrange {
+        box-sizing: border-box;
+        display: table;
+        margin: 0;
+        min-width: 100%;
+        padding: 0;
+        table-layout: auto;
+        text-align: center;
+    }
+    .twPc-Arrange1 {
+        box-sizing: border-box;
+        display: table;
+        margin: 0;
+        width: 50%;
+        padding: 0;
+        table-layout: auto;
+    }
+    ul.twPc-Arrange {
+        list-style: outside none none;
+        margin: 0;
+        padding: 0;
+    }
+    .twPc-ArrangeSizeFit {
+        margin-right: 10px;
+        display: inline;
+    }
+    .twPc-ArrangeSizeFit a:hover {
+        text-decoration: none;
+    }
+    .twPc-StatValue {
+        display: block;
+        font-size: 18px;
+        font-weight: 500;
+        transition: color 0.15s ease-in-out 0s;
+    }
+    .twPc-StatLabel {
+        color: #8899a6;
+        font-size: 10px;
+        letter-spacing: 0.02em;
+        overflow: hidden;
+        text-transform: uppercase;
+        transition: color 0.15s ease-in-out 0s;
+    }
+/* BOOTSTRAP 3.x GLOBAL STYLES
+-------------------------------------------------- */
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+
+
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 20px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 1;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 400px;
+  background-color:#555;
+}
+.carousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 400px;
+}
+
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+.marketing {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+.featurette {
+  padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+  overflow: hidden; /* Vertically center images part 2: clear their floats. */
+}
+.featurette-image {
+  margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+}
+
+/* Give some space on the sides of the floated elements so text doesn't run right into it. */
+.featurette-image.pull-left1 {
+  margin-right: 40px;
+}
+.featurette-image.pull-right1 {
+  margin-left: 40px;
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+  /* Remve the edge padding needed for mobile */
+  .marketing {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+}
